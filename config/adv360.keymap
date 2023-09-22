@@ -79,11 +79,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans            &trans           &trans               &trans             &trans  &trans            &trans                                                  &trans    &trans      &trans        &trans     &trans  &trans  &trans
- &trans            &trans           &trans               &trans             &trans  &trans            &trans                                                  &trans    &trans      &trans        &trans     &trans  &trans  &trans
- &trans  &kp LG(LC(LEFT))  &kp LC(LA(TAB))  &kp LC(LA(LS(TAB)))  &kp LG(LC(RIGHT))  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT    &kp DOWN        &kp UP  &kp RIGHT  &trans  &trans
- &trans            &trans           &trans               &trans             &trans  &trans                            &trans                  &trans                    &trans      &trans        &trans     &trans  &trans  &trans
- &trans            &trans           &trans         &kp LG(LEFT)      &kp LG(RIGHT)                    &trans  &trans  &trans                  &tog 5  &trans  &trans            &kp LG(UP)  &kp LG(DOWN)     &trans  &trans  &trans
+ &trans            &trans               &trans           &trans             &trans  &trans            &trans                                                  &trans    &trans      &trans        &trans     &trans  &trans  &trans
+ &trans            &trans               &trans           &trans             &trans  &trans            &trans                                                  &trans    &trans      &trans        &trans     &trans  &trans  &trans
+ &trans  &kp LG(LC(LEFT))  &kp LC(LA(LS(TAB)))  &kp LC(LA(TAB))  &kp LG(LC(RIGHT))  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT    &kp DOWN        &kp UP  &kp RIGHT  &trans  &trans
+ &trans            &trans               &trans           &trans             &trans  &trans                            &trans                  &trans                    &trans      &trans        &trans     &trans  &trans  &trans
+ &trans            &trans               &trans     &kp LG(LEFT)      &kp LG(RIGHT)                    &trans  &trans  &trans                  &tog 5  &trans  &trans            &kp LG(UP)  &kp LG(DOWN)     &trans  &trans  &trans
             >;
         };
 
