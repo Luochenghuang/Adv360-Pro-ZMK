@@ -89,11 +89,11 @@
 
         layer_Layer__5 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_GUI  &trans                  &kp LEFT_CONTROL  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                  &trans                            &trans                        &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans                            &trans        &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_GUI  &kp LEFT_CONTROL                  &kp LEFT_ALT  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                            &trans                        &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans        &trans            &trans                        &trans        &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

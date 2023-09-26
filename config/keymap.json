@@ -42,11 +42,11 @@
        "&trans",           "&trans",              "&trans",          "&trans",            "&trans", "&trans",                               "&trans",                     "&trans",                       "&trans",     "&trans",       "&trans",    "&trans", "&trans", "&trans",
        "&trans",           "&trans",              "&trans",    "&kp LG(LEFT)",     "&kp LG(RIGHT)",                     "&trans", "&trans", "&trans",                     "&tog 5", "&trans", "&trans",             "&kp LG(UP)", "&kp LG(DOWN)",    "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                   "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                   "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&kp LEFT_GUI", "&trans",                     "&kp LEFT_CONTROL", "&kp LEFT_GUI", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                                     "&trans",                               "&trans",                           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans",       "&trans", "&trans",                               "&trans",       "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                         "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                         "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&kp LEFT_GUI", "&kp LEFT_CONTROL",                     "&kp LEFT_ALT", "&kp LEFT_GUI", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                                               "&trans",                           "&trans",                           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans",       "&trans",           "&trans",                           "&trans",       "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
