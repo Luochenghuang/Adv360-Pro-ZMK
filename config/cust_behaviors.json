@@ -1,1 +1,10 @@
-[]
+[
+	{
+		"code": "<&bt BT_SEL 2>, <&tog 5>",
+		"name": "<&bt BT_SEL 2>, <&tog 5>",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
