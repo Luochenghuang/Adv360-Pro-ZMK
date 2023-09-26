@@ -7,8 +7,9 @@
     "keypad",
     "fn",
     "mod",
-    "Layer #4",
-    "MacOS"
+    "Win Special",
+    "MacOS",
+    "Mac Special"
   ],
   "layers": [
     [
@@ -36,17 +37,23 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                                    "&none",                          "&none",                                                "&none",        "&none",        "&none",        "&none",        "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC",                                  "&rgb_ug RGB_TOG", "&bl BL_TOG",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",                   "&bl BL_INC",   "&bl BL_DEC",        "&none",        "&none",  "&none"
     ], [
-       "&trans",           "&trans",              "&trans",          "&trans",            "&trans", "&trans",           "&trans",                                                             "&trans",   "&trans",     "&trans",       "&trans",    "&trans", "&trans", "&trans",
-       "&trans",           "&trans",              "&trans",          "&trans",            "&trans", "&trans",           "&trans",                                                             "&trans",   "&trans",     "&trans",       "&trans",    "&trans", "&trans", "&trans",
-       "&trans", "&kp LG(LC(LEFT))", "&kp LC(LA(LS(TAB)))", "&kp LC(LA(TAB))", "&kp LG(LC(RIGHT))", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT",   "&kp DOWN",       "&kp UP", "&kp RIGHT", "&trans", "&trans",
-       "&trans",           "&trans",              "&trans",          "&trans",            "&trans", "&trans",                               "&trans",                     "&trans",                       "&trans",     "&trans",       "&trans",    "&trans", "&trans", "&trans",
-       "&trans",           "&trans",              "&trans",    "&kp LG(LEFT)",     "&kp LG(RIGHT)",                     "&trans", "&trans", "&trans",                     "&tog 5", "&trans", "&trans",             "&kp LG(UP)", "&kp LG(DOWN)",    "&trans", "&trans", "&trans"
+       "&trans",           "&trans",              "&trans",          "&trans",            "&trans",       "&trans",           "&trans",                                                             "&trans",   "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans",           "&trans",              "&trans",          "&trans",            "&trans",       "&trans",           "&trans",                                                             "&trans",   "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans", "&kp LG(LC(LEFT))", "&kp LC(LA(LS(TAB)))", "&kp LC(LA(TAB))", "&kp LG(LC(RIGHT))",   "&kp LG(UP)",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT", "&kp DOWN", "&kp UP", "&kp RIGHT", "&trans", "&trans",
+       "&trans",           "&trans",              "&trans",    "&kp LG(LEFT)",     "&kp LG(RIGHT)", "&kp LG(DOWN)",                               "&trans",                     "&trans",                       "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans",           "&trans",              "&trans",          "&trans",            "&trans",                           "&trans", "&trans", "&trans",                     "&tog 5", "&trans", "&trans",               "&trans", "&trans",    "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&kp LEFT_GUI", "&trans",                     "&trans", "&kp LEFT_CONTROL", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                                     "&trans",                     "&trans",                               "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans",       "&trans", "&trans",                     "&trans",           "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&kp LEFT_GUI", "&trans",                     "&kp LG(SPACE)", "&kp LEFT_CONTROL", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                                     "&trans",                            "&trans",                               "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans",    "&lt 6 DEL", "&trans",                            "&trans",      "&lt 6 ENTER", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans",       "&trans",          "&trans",           "&trans",            "&trans",           "&trans",           "&trans",                                                             "&trans",   "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans",       "&trans",          "&trans",           "&trans",            "&trans",           "&trans",           "&trans",                                                             "&trans",   "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans", "&kp LC(LEFT)", "&kp LG(LS(TAB))",      "&kp LG(TAB)",     "&kp LC(RIGHT)",   "&kp LC(LA(UP))",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT", "&kp DOWN", "&kp UP", "&kp RIGHT", "&trans", "&trans",
+       "&trans",       "&trans",          "&trans", "&kp LC(LA(LEFT))", "&kp LC(LA(RIGHT))", "&kp LC(LA(DOWN))",                               "&trans",                     "&trans",                       "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans",       "&trans",          "&trans",           "&trans",            "&trans",                               "&trans", "&trans", "&trans",                     "&tog 5", "&trans", "&trans",               "&trans", "&trans",    "&trans", "&trans", "&trans"
     ]
   ]
 }
