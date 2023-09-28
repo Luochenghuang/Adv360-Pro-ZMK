@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                              &tog 1                                                                      &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp LC(LA(LS(NUMBER_1)))                                                                      &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                  &kp LC(LA(LS(N2)))  &kp LCTRL   &kp LALT                   &kp LGUI    &kp RCTRL        &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                  &kp HOME                  &kp PG_UP                             &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                               &kp BACKSPACE  &lt 4 DEL  &kp ENTER                  &kp PG_DN  &lt 4 ENTER  &lt 1 SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                              &tog 1                                                                             &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp LC(LA(LS(NUMBER_1)))                                                                &kp LC(LA(LS(N3)))   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                  &kp LC(LA(LS(N2)))  &kp LCTRL   &kp LALT                   &kp LGUI    &kp RCTRL  &kp LC(LA(LS(N4)))   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                  &kp HOME                  &kp PG_UP                                    &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                               &kp BACKSPACE  &lt 4 DEL  &kp ENTER                  &kp PG_DN  &lt 4 ENTER         &lt 1 SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -99,11 +99,11 @@
 
         layer_Mac_Special {
             bindings = <
- &trans        &trans           &trans            &trans             &trans            &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans        &trans           &trans            &trans             &trans            &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &kp LC(LEFT)  &kp LG(LS(TAB))       &kp LG(TAB)      &kp LC(RIGHT)    &kp LC(LA(UP))            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans        &trans           &trans  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LA(DOWN))                            &trans                  &trans                    &trans    &trans  &trans     &trans  &trans  &trans
- &trans        &trans           &trans            &trans             &trans                              &trans  &trans  &trans                  &tog 5  &trans  &trans              &trans  &trans     &trans  &trans  &trans
+ &trans        &trans           &trans            &trans             &trans            &trans                  &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans           &trans            &trans             &trans            &trans              &kp LC(UP)                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans  &kp LC(LEFT)  &kp LG(LS(TAB))       &kp LG(TAB)      &kp LC(RIGHT)    &kp LC(LA(UP))            &kp LC(DOWN)  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+ &trans        &trans           &trans  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LA(DOWN))                                  &trans                  &trans                    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans           &trans            &trans             &trans                                    &trans  &trans  &trans                  &tog 5  &trans  &trans              &trans  &trans     &trans  &trans  &trans
             >;
         };
 
