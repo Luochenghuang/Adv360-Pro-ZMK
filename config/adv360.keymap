@@ -89,21 +89,21 @@
 
         layer_MacOS {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_GUI  &trans                  &kp LG(SPACE)  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                  &trans                         &trans                        &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans     &lt 6 DEL  &trans                         &trans   &lt 6 ENTER  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                  &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans              &kp LC(UP)                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &kp LC(DOWN)  &kp LEFT_GUI  &kp SPACE                  &kp LG(SPACE)  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                           &trans                         &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                          &trans     &lt 6 DEL     &trans                         &trans   &lt 6 ENTER  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_Mac_Special {
             bindings = <
- &trans        &trans           &trans            &trans             &trans            &trans                  &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans        &trans           &trans            &trans             &trans            &trans              &kp LC(UP)                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &kp LC(LEFT)  &kp LG(LS(TAB))       &kp LG(TAB)      &kp LC(RIGHT)    &kp LC(LA(UP))            &kp LC(DOWN)  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans        &trans           &trans  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LA(DOWN))                                  &trans                  &trans                    &trans    &trans  &trans     &trans  &trans  &trans
- &trans        &trans           &trans            &trans             &trans                                    &trans  &trans  &trans                  &tog 5  &trans  &trans              &trans  &trans     &trans  &trans  &trans
+ &trans        &trans           &trans            &trans             &trans            &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans           &trans            &trans             &trans            &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans  &kp LC(LEFT)  &kp LG(LS(TAB))       &kp LG(TAB)      &kp LC(RIGHT)    &kp LC(LA(UP))            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+ &trans        &trans           &trans  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LA(DOWN))                            &trans                  &trans                    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans           &trans            &trans             &trans                              &trans  &trans  &trans                  &tog 5  &trans  &trans              &trans  &trans     &trans  &trans  &trans
             >;
         };
 
