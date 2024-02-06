@@ -21,6 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -91,19 +92,9 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans                  &trans                                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &kp LC(UP)                                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &kp LC(DOWN)  &kp LEFT_GUI  &kp LEFT_CONTROL                  &kp LG(SPACE)  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans                         &trans                        &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                          &trans     &lt 6 DEL            &trans                         &trans   &lt 6 ENTER  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_Mac_Special {
-            bindings = <
- &trans        &trans           &trans            &trans             &trans            &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans        &trans           &trans            &trans             &trans            &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &kp LC(LEFT)  &kp LG(LS(TAB))       &kp LG(TAB)      &kp LC(RIGHT)    &kp LC(LA(UP))            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans        &trans           &trans  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LA(DOWN))                            &trans                  &trans                    &trans    &trans  &trans     &trans  &trans  &trans
- &trans        &trans           &trans            &trans             &trans                              &trans  &trans  &trans                  &tog 5  &trans  &trans              &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &kp LC(DOWN)   &kp LEFT_GUI  &kp LALT                  &kp LG(SPACE)     &kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                           &trans                         &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                          &trans  &mt LCTRL DEL    &trans                         &tog 5  &mt LA(LSHFT) ENTER  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
