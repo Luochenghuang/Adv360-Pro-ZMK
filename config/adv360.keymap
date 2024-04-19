@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL      &kp N1       &kp N2       &kp N3       &kp N4  &kp N5              &trans                                                                 &mo 3         &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB  &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)   &kp T               &none                                                                 &none  &kp LS(PG_UP)   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC  &kp LS(F5)   &kp LS(F6)   &kp LS(F7)   &kp LS(F8)   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none  &kp LS(PG_DN)   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
- &kp LSHFT  &kp LS(F1)   &kp LS(F2)   &kp LS(F3)   &kp LS(F4)   &kp B                                 &kp HOME                  &kp PG_UP                         &kp LS(HOME)   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2   &kp GRAVE     &kp CAPS     &kp LEFT    &kp RIGHT                    &kp BSPC     &trans    &trans                  &kp PG_DN  &kp ENTER  &kp KP_N0                  &kp SPACE     &kp KP_N0     &kp KP_DOT         &kp RBKT      &mo 2
+ &kp EQUAL      &kp N1       &kp N2                &kp N3                 &kp N4  &kp N5              &trans                                                                 &mo 3         &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+   &kp TAB  &kp LS(F9)  &kp LS(F10)        &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp T               &none                                                                 &none  &kp LS(PG_UP)   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+   &kp ESC   &kp CARET   &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none  &kp LS(PG_DN)   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
+ &kp LSHFT  &kp LS(F1)   &kp LS(F2)      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp B                                 &kp HOME                  &kp PG_UP                         &kp LS(HOME)   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
+     &mo 2   &kp GRAVE     &kp CAPS              &kp LEFT              &kp RIGHT                    &kp BSPC     &trans    &trans                  &kp PG_DN  &kp ENTER  &kp KP_N0                  &kp SPACE     &kp KP_N0     &kp KP_DOT        &kp COMMA      &mo 2
             >;
         };
 
